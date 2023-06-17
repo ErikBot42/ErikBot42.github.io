@@ -1,0 +1,14 @@
+{
+  "name": "point_simulation",
+  "version": "0.1.0",
+  "files": [
+    "point_simulation_bg.wasm",
+    "point_simulation.js",
+    "point_simulation.d.ts"
+  ],
+  "module": "point_simulation.js",
+  "types": "point_simulation.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
